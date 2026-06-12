@@ -16,7 +16,6 @@ import httpx
 from focused_research_agent.config.ui_config import get_ui_settings
 from focused_research_agent.ui.exceptions import BackendUnavailableError
 
-
 _HEALTH_ENDPOINT = "/health"
 _RESEARCH_ENDPOINT = "/api/v1/research"
 _CHAT_ENDPOINT = "/api/v1/chat"

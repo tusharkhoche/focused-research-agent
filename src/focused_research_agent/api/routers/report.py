@@ -22,7 +22,6 @@ from focused_research_agent.api.schemas.report.report import (
 )
 from focused_research_agent.database.database import get_db
 
-
 report_router = APIRouter(tags=["report"])
 
 

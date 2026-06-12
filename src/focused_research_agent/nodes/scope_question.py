@@ -15,7 +15,6 @@ import logging
 from focused_research_agent.interfaces.llm_interface import LLMProvider
 from focused_research_agent.state import ResearchState
 
-
 logger = logging.getLogger(__name__)
 
 

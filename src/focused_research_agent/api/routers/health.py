@@ -11,7 +11,6 @@ codes, while avoiding business logic.
 
 from fastapi import APIRouter
 
-
 health_router = APIRouter(tags=["health"])
 
 
