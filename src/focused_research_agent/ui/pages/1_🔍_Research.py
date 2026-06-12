@@ -130,7 +130,7 @@ def _render_results() -> None:
             render_answer(result["data"])
             render_metrics(result["data"])
             render_research_details(result["data"])
-            render_sources(result["data"]["sources"], result["data"].get("images") )
+            render_sources(result["data"]["sources"], result["data"].get("images"))
         else:
             render_error(result["error"])
 

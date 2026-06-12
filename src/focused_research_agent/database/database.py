@@ -18,7 +18,6 @@ from sqlalchemy.orm import sessionmaker, Session
 from focused_research_agent.config.database_config import get_database_settings
 from focused_research_agent.database.models import Base
 
-
 engine = create_engine(
     get_database_settings().database_url,
     connect_args={"check_same_thread": False},

@@ -193,10 +193,7 @@ def get_all_conversations(db: Session) -> list[dict]:
     """
     runs = (
         db.query(ConversationRun)
-        .filter(
-            ConversationRun.turn_number == 1,
-            ConversationRun.mode != "report"
-        )
+        .filter(ConversationRun.turn_number == 1, ConversationRun.mode != "report")
         .order_by(ConversationRun.created_at.desc())
         .all()
     )

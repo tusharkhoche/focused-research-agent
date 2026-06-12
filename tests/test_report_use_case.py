@@ -30,7 +30,6 @@ from focused_research_agent.application.exceptions import ApplicationError
 from focused_research_agent.application.report_use_case import execute_report
 from focused_research_agent.database.models import Base
 
-
 # ---------------------------------------------------------------------------
 # Fixtures
 # ---------------------------------------------------------------------------

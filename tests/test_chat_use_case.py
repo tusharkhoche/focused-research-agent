@@ -39,7 +39,6 @@ from focused_research_agent.application.exceptions import ApplicationError
 from focused_research_agent.database.models import Base
 from focused_research_agent.database.repository import save_run
 
-
 # ---------------------------------------------------------------------------
 # Fixtures
 # ---------------------------------------------------------------------------

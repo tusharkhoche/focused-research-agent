@@ -143,7 +143,7 @@ def _render_report_result() -> None:
 
     # Handle transport-level failures — 422, 500, connection error
     # In these cases result["data"] is None
-    if not result["success"] and result["data"] is None:    # ← add this block
+    if not result["success"] and result["data"] is None:  # ← add this block
         st.error(result["error"] or "An error occurred.")
         return
 

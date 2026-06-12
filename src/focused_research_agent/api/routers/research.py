@@ -19,7 +19,6 @@ from fastapi import APIRouter, Depends, status
 from focused_research_agent.api.dependencies import get_research_use_case
 from focused_research_agent.api.schemas.research import research as research_schema
 
-
 research_router = APIRouter(tags=["research"])
 
 

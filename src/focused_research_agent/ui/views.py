@@ -151,7 +151,6 @@ def render_sources(sources: list[dict], images: list[str] | None = None) -> None
                 except Exception:
                     pass
 
-
     st.subheader("📚 Sources")
     if not sources:
         st.info("No sources available.")
